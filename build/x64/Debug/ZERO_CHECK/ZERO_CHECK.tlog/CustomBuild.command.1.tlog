@@ -1,0 +1,10 @@
+^C:\USERS\FRANC\ONEDRIVE\DOCUMENTS\ACADEMIC AND INDUSTRY WORK\CAREER 2022-2023\OATPP\BUILD\CMAKEFILES\6927D77C1737A9B7BD14708EDF7326FD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp" "-BC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/server.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

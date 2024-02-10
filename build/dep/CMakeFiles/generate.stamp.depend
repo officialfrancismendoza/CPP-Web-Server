@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in
+C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/CMakeLists.txt
+C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/cmake/compiler-flags.cmake
+C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/cmake/msvc-runtime.cmake
+C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/cmake/project.cmake
+C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/cpack.cmake

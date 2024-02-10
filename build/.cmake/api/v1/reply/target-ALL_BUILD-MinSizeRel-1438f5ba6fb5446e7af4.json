@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"dep/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "oatpp-test::@2878fb2ca49491cd4dc4"
+		},
+		{
+			"id" : "oatppAllTests::@dfd1f7ed0895d89f2917"
+		},
+		{
+			"id" : "oatpp::@2878fb2ca49491cd4dc4"
+		}
+	],
+	"id" : "ALL_BUILD::@cb6ef46e689dd9ebba16",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "dep",
+		"source" : "dep"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D49E0205-7387-3BAD-B359-4FB0330EF904}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>oatppAllTests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">oatppAllTests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">oatppAllTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">oatppAllTests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">oatppAllTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">oatppAllTests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">oatppAllTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">oatppAllTests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">oatppAllTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Debug\oatpp.lib;..\src\Debug\oatpp-test.lib;..\src\Debug\oatpp.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/Debug/oatppAllTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/Debug/oatppAllTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Release\oatpp.lib;..\src\Release\oatpp-test.lib;..\src\Release\oatpp.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/Release/oatppAllTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/Release/oatppAllTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\MinSizeRel\oatpp.lib;..\src\MinSizeRel\oatpp-test.lib;..\src\MinSizeRel\oatpp.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/MinSizeRel/oatppAllTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/MinSizeRel/oatppAllTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test;C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\RelWithDebInfo\oatpp.lib;..\src\RelWithDebInfo\oatpp-test.lib;..\src\RelWithDebInfo\oatpp.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/RelWithDebInfo/oatppAllTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/RelWithDebInfo/oatppAllTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp" "-BC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build" --check-stamp-file "C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp" "-BC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build" --check-stamp-file "C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp" "-BC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build" --check-stamp-file "C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/dep/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp" "-BC:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build" --check-stamp-file "C:/Users/franc/OneDrive/Documents/Academic and Industry work/Career 2022-2023/oatpp/build/dep/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\AllTestsMain.cpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\async\ConditionVariableTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\async\ConditionVariableTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\async\LockTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\async\LockTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\base\CommandLineArgumentsTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\base\CommandLineArgumentsTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\base\LoggerTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\base\LoggerTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\buffer\ProcessorTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\buffer\ProcessorTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\TypeResolverTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\TypeResolverTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\AnyTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\AnyTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\EnumTest.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/core/data/mapping/type/EnumTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\EnumTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\InterpretationTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\InterpretationTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\ListTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\ListTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\ObjectTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\ObjectTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\ObjectWrapperTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\ObjectWrapperTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\PairListTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\PairListTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\PrimitiveTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\PrimitiveTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\StringTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\StringTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\TypeTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\TypeTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\UnorderedMapTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\UnorderedMapTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\UnorderedSetTest.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/core/data/mapping/type/UnorderedSetTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\UnorderedSetTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\VectorTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\mapping\type\VectorTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\resource\InMemoryDataTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\resource\InMemoryDataTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\share\LazyStringMapTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\share\LazyStringMapTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\share\MemoryLabelTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\share\MemoryLabelTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\share\StringTemplateTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\share\StringTemplateTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\stream\BufferStreamTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\data\stream\BufferStreamTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\parser\CaretTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\parser\CaretTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\provider\PoolTemplateTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\provider\PoolTemplateTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\provider\PoolTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\core\provider\PoolTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\encoding\Base64Test.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\encoding\Base64Test.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\encoding\UnicodeTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\encoding\UnicodeTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\encoding\UrlTest.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/encoding/UrlTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\encoding\UrlTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\ConnectionPoolTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\ConnectionPoolTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\UrlTest.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/UrlTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\UrlTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\monitor\ConnectionMonitorTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\monitor\ConnectionMonitorTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\virtual_\InterfaceTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\virtual_\InterfaceTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\virtual_\PipeTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\network\virtual_\PipeTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\BooleanTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\BooleanTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\DeserializerTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\DeserializerTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\DTOMapperPerfTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\DTOMapperPerfTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\DTOMapperTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\DTOMapperTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\EnumTest.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/parser/json/mapping/EnumTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\EnumTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\UnorderedSetTest.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/parser/json/mapping/UnorderedSetTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\parser\json\mapping\UnorderedSetTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\ClientRetryTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\ClientRetryTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\FullAsyncClientTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\FullAsyncClientTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\FullAsyncTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\FullAsyncTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\FullTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\FullTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\PipelineAsyncTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\PipelineAsyncTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\PipelineTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\PipelineTest.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\BasicAuthorizationController.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\BearerAuthorizationController.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\Client.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\Controller.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\ControllerAsync.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\ControllerWithErrorHandler.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\ControllerWithInterceptors.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\ControllerWithInterceptorsAsync.hpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\app\DTOs.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\mime\multipart\StatefulParserTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\mime\multipart\StatefulParserTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\protocol\http\encoding\ChunkedTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\protocol\http\encoding\ChunkedTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\HttpRouterTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\HttpRouterTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\ServerStopTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\ServerStopTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\api\ApiControllerTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\api\ApiControllerTest.hpp" />
+    <ClCompile Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\handler\AuthorizationHandlerTest.cpp" />
+    <ClInclude Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\dep\test\oatpp\web\server\handler\AuthorizationHandlerTest.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\ZERO_CHECK.vcxproj">
+      <Project>{426CEE88-14FE-3DF0-BA3E-1464C455857C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\src\oatpp.vcxproj">
+      <Project>{FCF4945A-C80B-314C-A4AF-6AB389F59913}</Project>
+      <Name>oatpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\franc\OneDrive\Documents\Academic and Industry work\Career 2022-2023\oatpp\build\dep\src\oatpp-test.vcxproj">
+      <Project>{A7B83ABC-1FE5-30A7-846B-86D40021B345}</Project>
+      <Name>oatpp-test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
