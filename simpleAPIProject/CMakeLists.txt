@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
 add_executable(server simpleServer.cpp)
+add_executable(client simpleClient.cpp)
 target_link_libraries(server PUBLIC oatpp)
+target_link_libraries(client PUBLIC oatpp)
